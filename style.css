@@ -4,13 +4,13 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header-container {
     display: flex;
     justify-content: space-between;
     color: #F9F8FA;
     background-color: #1F2937;
     padding: 16px 32px;
-    margin: -1%;
+    /* margin: -1%; */
 }
 
 .logo {
@@ -31,4 +31,8 @@ body {
 .header-links ul li a {
     font-size: 16px;
     cursor: pointer;
+}
+
+.hero-container {
+    margin-top: auto;
 }
