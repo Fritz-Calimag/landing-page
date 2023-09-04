@@ -2,6 +2,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 
 .header-container {
@@ -9,7 +11,7 @@ body {
     justify-content: space-between;
     color: #F9F8FA;
     background-color: #1F2937;
-    padding: 16px 32px;
+    padding: 16px 64px;
     /* margin: -1%; */
 }
 
@@ -34,5 +36,55 @@ body {
 }
 
 .hero-container {
-    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 64px;
+}
+
+.hero-button {
+    color: #F9F8FA;
+    background-color: #3882F6;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    width: 125px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9F8FA;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 75%;
+}
+
+.right-hero {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.right-hero img{
+    max-width: 60%;
+    border-radius: 8px;
+    /* width: 800px;
+    height: 400px; */
 }
