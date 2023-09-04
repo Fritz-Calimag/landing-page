@@ -7,15 +7,28 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    color: #F9F8FA;
+    background-color: #1F2937;
+    padding: 16px 32px;
+    margin: -1%;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.header-links ul{
+.header-links ul {
     display: flex;
     align-items: center;
     list-style-type: none;
+    gap: 16px;
+    padding: 0;
+}
+
+.header-links ul li a {
+    font-size: 16px;
+    cursor: pointer;
 }
