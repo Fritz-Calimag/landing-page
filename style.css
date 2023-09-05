@@ -130,8 +130,33 @@ body {
 }
 
 .info-subtext {
+    color: #4B5563;
     flex: 1 1 auto;
     text-align: center;
+}
+
+.quote-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 128px;
+    gap: 16px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-person {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
 }
 
 .footer {
